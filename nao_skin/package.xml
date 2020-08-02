@@ -1,0 +1,26 @@
+﻿<package>
+  <name>nao_skin</name>
+  <version>1.0.0</version>
+  
+  <description>
+    Adds tactile skin to NAO humanoid robot.
+  </description>
+
+  <author>Maksym Shcherban</author>
+  <maintainer email="shchema1@fel.cvut.cz">Maksym Shcherban</maintainer>
+  <license>MIT</license>
+
+  <url type="repository">https://github.com/maxymczech/nao-gazebo-skin</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>urdf</build_depend>
+  <build_depend>xacro</build_depend>
+  
+  <run_depend>nao_control</run_depend>
+  <run_depend>nao_description</run_depend>
+  <run_depend>nao_gazebo_plugin</run_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>xacro</run_depend>
+  
+</package>

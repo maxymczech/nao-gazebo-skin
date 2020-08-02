@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>gazebo_contactsensor_plugin</name>
+  <version>0.1.0</version>
+  <description>Contact plugin for gazebo</description>
+
+  <maintainer email="shchema1@fel.cvut.cz">Maksym Shcherban</maintainer>
+  <license>BSD</license>
+  <author email="shchema1@fel.cvut.cz">Maksym Shcherban</author>
+</package>
