@@ -28,6 +28,7 @@ git clone https://github.com/maxymczech/nao-gazebo-skin.git
 git clone https://github.com/OTL/rqt_ez_publisher.git
 cd ..
 catkin_make
+source ./devel/setup.sh
 ```
 
 ## Usage
