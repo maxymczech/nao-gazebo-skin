@@ -32,7 +32,7 @@ void ContactPlugin::Load(sensors::SensorPtr _sensor, sdf::ElementPtr /*_sdf*/){
 
   this->InitUDP();
   
-  std::string parent_sensor_name = (this->parentSensor)->ParentName().substr(10, std::string::npos);
+  std::string parent_sensor_name = (this->parentSensor)->ParentName().substr(9, std::string::npos);
   std::cout << "ContactPlugin runnning." << "\n" << "Parent sensor name: " << parent_sensor_name << "\n";
   
   // ROS interface

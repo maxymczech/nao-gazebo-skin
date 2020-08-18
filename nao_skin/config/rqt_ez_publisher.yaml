@@ -1,0 +1,32 @@
+publish_interval: 100
+settings:
+  /nao_dcm/HeadPitch_position_controller/command/data: {is_repeat: false, max: 0.51,
+    min: -0.67}
+  /nao_dcm/HeadYaw_position_controller/command/data: {is_repeat: false, max: 2.08,
+    min: -2.08}
+  /nao_dcm/LElbowRoll_position_controller/command/data: {is_repeat: false, max: -0.03,
+    min: -1.54}
+  /nao_dcm/LElbowYaw_position_controller/command/data: {is_repeat: false, max: 2.08,
+    min: -2.08}
+  /nao_dcm/LShoulderPitch_position_controller/command/data: {is_repeat: false, max: 2.08,
+    min: -2.08}
+  /nao_dcm/LShoulderRoll_position_controller/command/data: {is_repeat: false, max: 1.32,
+    min: -0.31}
+  /nao_dcm/LWristYaw_position_controller/command/data: {is_repeat: false, max: 1.82,
+    min: -1.82}
+  /nao_dcm/RElbowRoll_position_controller/command/data: {is_repeat: false, max: 1.54,
+    min: 0.03}
+  /nao_dcm/RElbowYaw_position_controller/command/data: {is_repeat: false, max: 2.08,
+    min: -2.08}
+  /nao_dcm/RShoulderPitch_position_controller/command/data: {is_repeat: false, max: 2.08,
+    min: -2.08}
+  /nao_dcm/RShoulderRoll_position_controller/command/data: {is_repeat: false, max: 0.31,
+    min: -1.32}
+  /nao_dcm/RWristYaw_position_controller/command/data: {is_repeat: false, max: 1.82,
+    min: -1.82}
+texts: [/nao_dcm/HeadPitch_position_controller/command/data, /nao_dcm/HeadYaw_position_controller/command/data,
+  /nao_dcm/LShoulderPitch_position_controller/command/data, /nao_dcm/LShoulderRoll_position_controller/command/data,
+  /nao_dcm/LElbowRoll_position_controller/command/data, /nao_dcm/LElbowYaw_position_controller/command/data,
+  /nao_dcm/LWristYaw_position_controller/command/data, /nao_dcm/RShoulderRoll_position_controller/command/data,
+  /nao_dcm/RShoulderPitch_position_controller/command/data, /nao_dcm/RElbowRoll_position_controller/command/data,
+  /nao_dcm/RElbowYaw_position_controller/command/data, /nao_dcm/RWristYaw_position_controller/command/data]

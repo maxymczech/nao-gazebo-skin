@@ -1,0 +1,1502 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="insert_skin_torso_casing">
+        <visual name="torso_casing_collision_0_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.73864026  2.55623365" xyz=" 0.05047744 -0.04820401 -0.00116878" />
+        </visual>
+        <collision name="torso_casing_collision_0">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.73864026  2.55623365" xyz=" 0.05047744 -0.04820401 -0.00116878" />
+        </collision>
+
+        <visual name="torso_casing_collision_1_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.70902562  3.04146286" xyz=" 0.06012247 -0.01665401 -0.00116878" />
+        </visual>
+        <collision name="torso_casing_collision_1">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.70902562  3.04146286" xyz=" 0.06012247 -0.01665401 -0.00116878" />
+        </collision>
+
+        <visual name="torso_casing_collision_2_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.70902686  3.24016063" xyz=" 0.06012208  0.016658   -0.00116878" />
+        </visual>
+        <collision name="torso_casing_collision_2">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.70902686  3.24016063" xyz=" 0.06012208  0.016658   -0.00116878" />
+        </collision>
+
+        <visual name="torso_casing_collision_3_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.73864661  3.7254699 " xyz=" 0.05047481  0.048208   -0.00116878" />
+        </visual>
+        <collision name="torso_casing_collision_3">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.73864661  3.7254699 " xyz=" 0.05047481  0.048208   -0.00116878" />
+        </collision>
+
+        <visual name="torso_casing_collision_4_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.74769668  2.18118558" xyz=" 0.04085497 -0.06051711  0.00845122" />
+        </visual>
+        <collision name="torso_casing_collision_4">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.74769668  2.18118558" xyz=" 0.04085497 -0.06051711  0.00845122" />
+        </collision>
+
+        <visual name="torso_casing_collision_5_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.70402913  2.88037973" xyz=" 0.05857181 -0.03311711  0.00845122" />
+        </visual>
+        <collision name="torso_casing_collision_5">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.70402913  2.88037973" xyz=" 0.05857181 -0.03311711  0.00845122" />
+        </collision>
+
+        <visual name="torso_casing_collision_6_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.69077341  3.14079633" xyz="6.21207129e-02 1.77635684e-17 8.45121639e-03" />
+        </visual>
+        <collision name="torso_casing_collision_6">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.69077341  3.14079633" xyz="6.21207129e-02 1.77635684e-17 8.45121639e-03" />
+        </collision>
+
+        <visual name="torso_casing_collision_7_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.70403323  3.40126705" xyz="0.05857075 0.03312109 0.00845122" />
+        </visual>
+        <collision name="torso_casing_collision_7">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.70403323  3.40126705" xyz="0.05857075 0.03312109 0.00845122" />
+        </collision>
+
+        <visual name="torso_casing_collision_8_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.74770238  4.10057529" xyz="0.04084929 0.06052109 0.00845122" />
+        </visual>
+        <collision name="torso_casing_collision_8">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.74770238  4.10057529" xyz="0.04084929 0.06052109 0.00845122" />
+        </collision>
+
+        <visual name="torso_casing_collision_9_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.68613937  2.25306533" xyz=" 0.04440494 -0.0615881   0.02782122" />
+        </visual>
+        <collision name="torso_casing_collision_9">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.68613937  2.25306533" xyz=" 0.04440494 -0.0615881   0.02782122" />
+        </collision>
+
+        <visual name="torso_casing_collision_10_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.64798576  2.90423686" xyz=" 0.06074269 -0.0332081   0.02782122" />
+        </visual>
+        <collision name="torso_casing_collision_10">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.64798576  2.90423686" xyz=" 0.06074269 -0.0332081   0.02782122" />
+        </collision>
+
+        <visual name="torso_casing_collision_11_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.63756145  3.14079633" xyz="6.39993412e-02 1.42108547e-17 2.78212164e-02" />
+        </visual>
+        <collision name="torso_casing_collision_11">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.63756145  3.14079633" xyz="6.39993412e-02 1.42108547e-17 2.78212164e-02" />
+        </collision>
+
+        <visual name="torso_casing_collision_12_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.64798882  3.37740387" xyz="0.06074173 0.03321208 0.02782122" />
+        </visual>
+        <collision name="torso_casing_collision_12">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.64798882  3.37740387" xyz="0.06074173 0.03321208 0.02782122" />
+        </collision>
+
+        <visual name="torso_casing_collision_13_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.68614518  4.0286796 " xyz="0.04440004 0.06159208 0.02782122" />
+        </visual>
+        <collision name="torso_casing_collision_13">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.68614518  4.0286796 " xyz="0.04440004 0.06159208 0.02782122" />
+        </collision>
+
+        <visual name="torso_casing_collision_14_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.60395318  2.65162128" xyz=" 0.0555483  -0.04899801  0.03751122" />
+        </visual>
+        <collision name="torso_casing_collision_14">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.60395318  2.65162128" xyz=" 0.0555483  -0.04899801  0.03751122" />
+        </collision>
+
+        <visual name="torso_casing_collision_15_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.59417553  3.05551398" xyz=" 0.06378404 -0.01667801  0.03751122" />
+        </visual>
+        <collision name="torso_casing_collision_15">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.59417553  3.05551398" xyz=" 0.06378404 -0.01667801  0.03751122" />
+        </collision>
+
+        <visual name="torso_casing_collision_16_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.59417601  3.2261047 " xyz="0.0637837  0.01668199 0.03751122" />
+        </visual>
+        <collision name="torso_casing_collision_16">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.59417601  3.2261047 " xyz="0.0637837  0.01668199 0.03751122" />
+        </collision>
+
+        <visual name="torso_casing_collision_17_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.60395571  3.63006027" xyz="0.05554618 0.04900199 0.03751122" />
+        </visual>
+        <collision name="torso_casing_collision_17">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.60395571  3.63006027" xyz="0.05554618 0.04900199 0.03751122" />
+        </collision>
+
+        <visual name="torso_casing_collision_18_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.57079633  2.65482498" xyz=" 0.05565013 -0.04899801  0.05687122" />
+        </visual>
+        <collision name="torso_casing_collision_18">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.57079633  2.65482498" xyz=" 0.05565013 -0.04899801  0.05687122" />
+        </collision>
+
+        <visual name="torso_casing_collision_19_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.57079633  3.05582035" xyz=" 0.06384989 -0.01667801  0.05687122" />
+        </visual>
+        <collision name="torso_casing_collision_19">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.57079633  3.05582035" xyz=" 0.06384989 -0.01667801  0.05687122" />
+        </collision>
+
+        <visual name="torso_casing_collision_20_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.57079633  3.22579816" xyz="0.06384955 0.01668199 0.05687122" />
+        </visual>
+        <collision name="torso_casing_collision_20">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.57079633  3.22579816" xyz="0.06384955 0.01668199 0.05687122" />
+        </collision>
+
+        <visual name="torso_casing_collision_21_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.57079633  3.62685575" xyz="0.05564803 0.04900199 0.05687122" />
+        </visual>
+        <collision name="torso_casing_collision_21">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.57079633  3.62685575" xyz="0.05564803 0.04900199 0.05687122" />
+        </collision>
+
+        <visual name="torso_casing_collision_22_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.57079633  2.91362711" xyz=" 0.06139167 -0.03301114  0.06656122" />
+        </visual>
+        <collision name="torso_casing_collision_22">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.57079633  2.91362711" xyz=" 0.06139167 -0.03301114  0.06656122" />
+        </collision>
+
+        <visual name="torso_casing_collision_23_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.57079633  3.14079633" xyz="0.0645     0.         0.06656122" />
+        </visual>
+        <collision name="torso_casing_collision_23">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.57079633  3.14079633" xyz="0.0645     0.         0.06656122" />
+        </collision>
+
+        <visual name="torso_casing_collision_24_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.57079633  3.36801173" xyz="0.06139075 0.03301512 0.06656122" />
+        </visual>
+        <collision name="torso_casing_collision_24">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.57079633  3.36801173" xyz="0.06139075 0.03301512 0.06656122" />
+        </collision>
+
+    </xacro:macro>
+    <xacro:macro name="insert_skin_head_casing">
+        <visual name="head_casing_collision_0_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.77180648  3.87924853" xyz="0.03054098 0.040438   0.0833466 " />
+        </visual>
+        <collision name="head_casing_collision_0">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.77180648  3.87924853" xyz="0.03054098 0.040438   0.0833466 " />
+        </collision>
+
+        <visual name="head_casing_collision_1_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.98870469  3.737634  " xyz="0.03710789 0.04958189 0.07043743" />
+        </visual>
+        <collision name="head_casing_collision_1">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.98870469  3.737634  " xyz="0.03710789 0.04958189 0.07043743" />
+        </collision>
+
+        <visual name="head_casing_collision_2_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.30201338  3.64939733" xyz="0.04939483 0.0413623  0.05648696" />
+        </visual>
+        <collision name="head_casing_collision_2">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.30201338  3.64939733" xyz="0.04939483 0.0413623  0.05648696" />
+        </collision>
+
+        <visual name="head_casing_collision_3_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.62477764  3.63026432" xyz="0.04733385 0.04958189 0.03801167" />
+        </visual>
+        <collision name="head_casing_collision_3">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.62477764  3.63026432" xyz="0.04733385 0.04958189 0.03801167" />
+        </collision>
+
+        <visual name="head_casing_collision_4_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.86619323  3.65371976" xyz="0.04936068 0.040438   0.02367071" />
+        </visual>
+        <collision name="head_casing_collision_4">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.86619323  3.65371976" xyz="0.04936068 0.040438   0.02367071" />
+        </collision>
+
+        <visual name="head_casing_collision_5_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.52974621  3.63180417" xyz="0.02922746 0.01489145 0.09750859" />
+        </visual>
+        <collision name="head_casing_collision_5">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.52974621  3.63180417" xyz="0.02922746 0.01489145 0.09750859" />
+        </collision>
+
+        <visual name="head_casing_collision_6_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.79727745  3.70812347" xyz="0.03967168 0.0240295  0.08684612" />
+        </visual>
+        <collision name="head_casing_collision_6">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.79727745  3.70812347" xyz="0.03967168 0.0240295  0.08684612" />
+        </collision>
+
+        <visual name="head_casing_collision_7_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.02187571  3.4261567 " xyz="0.05369165 0.01500919 0.07513246" />
+        </visual>
+        <collision name="head_casing_collision_7">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.02187571  3.4261567 " xyz="0.05369165 0.01500919 0.07513246" />
+        </collision>
+
+        <visual name="head_casing_collision_8_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.28986531  3.55605732" xyz="0.05780738 0.02422584 0.05913999" />
+        </visual>
+        <collision name="head_casing_collision_8">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.28986531  3.55605732" xyz="0.05780738 0.02422584 0.05913999" />
+        </collision>
+
+        <visual name="head_casing_collision_9_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.5285493   3.38353466" xyz="0.06361074 0.01500919 0.04367973" />
+        </visual>
+        <collision name="head_casing_collision_9">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.5285493   3.38353466" xyz="0.06361074 0.01500919 0.04367973" />
+        </collision>
+
+        <visual name="head_casing_collision_10_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.79888656  3.54653172" xyz="0.05884706 0.0240295  0.02604237" />
+        </visual>
+        <collision name="head_casing_collision_10">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.79888656  3.54653172" xyz="0.05884706 0.0240295  0.02604237" />
+        </collision>
+
+        <visual name="head_casing_collision_11_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.03887994  3.41105549" xyz="0.05640918 0.01489145 0.01131733" />
+        </visual>
+        <collision name="head_casing_collision_11">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.03887994  3.41105549" xyz="0.05640918 0.01489145 0.01131733" />
+        </collision>
+
+        <visual name="head_casing_collision_12_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.77180648  2.40234412" xyz=" 0.03054098 -0.040438    0.0833466 " />
+        </visual>
+        <collision name="head_casing_collision_12">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.77180648  2.40234412" xyz=" 0.03054098 -0.040438    0.0833466 " />
+        </collision>
+
+        <visual name="head_casing_collision_13_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.98870469  2.54395866" xyz=" 0.03710789 -0.04958189  0.07043743" />
+        </visual>
+        <collision name="head_casing_collision_13">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.98870469  2.54395866" xyz=" 0.03710789 -0.04958189  0.07043743" />
+        </collision>
+
+        <visual name="head_casing_collision_14_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.30201338  2.63219532" xyz=" 0.04939483 -0.0413623   0.05648696" />
+        </visual>
+        <collision name="head_casing_collision_14">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.30201338  2.63219532" xyz=" 0.04939483 -0.0413623   0.05648696" />
+        </collision>
+
+        <visual name="head_casing_collision_15_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.62477764  2.65132834" xyz=" 0.04733385 -0.04958189  0.03801167" />
+        </visual>
+        <collision name="head_casing_collision_15">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.62477764  2.65132834" xyz=" 0.04733385 -0.04958189  0.03801167" />
+        </collision>
+
+        <visual name="head_casing_collision_16_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.86619323  2.6278729 " xyz=" 0.04936068 -0.040438    0.02367071" />
+        </visual>
+        <collision name="head_casing_collision_16">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.86619323  2.6278729 " xyz=" 0.04936068 -0.040438    0.02367071" />
+        </collision>
+
+        <visual name="head_casing_collision_17_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.52974621  2.64978848" xyz=" 0.02922746 -0.01489145  0.09750859" />
+        </visual>
+        <collision name="head_casing_collision_17">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.52974621  2.64978848" xyz=" 0.02922746 -0.01489145  0.09750859" />
+        </collision>
+
+        <visual name="head_casing_collision_18_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.79727745  2.57346919" xyz=" 0.03967168 -0.0240295   0.08684612" />
+        </visual>
+        <collision name="head_casing_collision_18">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.79727745  2.57346919" xyz=" 0.03967168 -0.0240295   0.08684612" />
+        </collision>
+
+        <visual name="head_casing_collision_19_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.02187571  2.85543596" xyz=" 0.05369165 -0.01500919  0.07513246" />
+        </visual>
+        <collision name="head_casing_collision_19">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.02187571  2.85543596" xyz=" 0.05369165 -0.01500919  0.07513246" />
+        </collision>
+
+        <visual name="head_casing_collision_20_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.28986531  2.72553533" xyz=" 0.05780738 -0.02422584  0.05913999" />
+        </visual>
+        <collision name="head_casing_collision_20">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.28986531  2.72553533" xyz=" 0.05780738 -0.02422584  0.05913999" />
+        </collision>
+
+        <visual name="head_casing_collision_21_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.5285493   2.89805799" xyz=" 0.06361074 -0.01500919  0.04367973" />
+        </visual>
+        <collision name="head_casing_collision_21">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.5285493   2.89805799" xyz=" 0.06361074 -0.01500919  0.04367973" />
+        </collision>
+
+        <visual name="head_casing_collision_22_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.79888656  2.73506094" xyz=" 0.05884706 -0.0240295   0.02604237" />
+        </visual>
+        <collision name="head_casing_collision_22">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.79888656  2.73506094" xyz=" 0.05884706 -0.0240295   0.02604237" />
+        </collision>
+
+        <visual name="head_casing_collision_23_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.03887994  2.87053717" xyz=" 0.05640918 -0.01489145  0.01131733" />
+        </visual>
+        <collision name="head_casing_collision_23">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.03887994  2.87053717" xyz=" 0.05640918 -0.01489145  0.01131733" />
+        </collision>
+
+    </xacro:macro>
+    <xacro:macro name="insert_skin_l_wrist_casing">
+        <visual name="l_wrist_casing_collision_0_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.34837613 -1.50001332" xyz="0.04026087 0.03639751 0.00825287" />
+        </visual>
+        <collision name="l_wrist_casing_collision_0">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.34837613 -1.50001332" xyz="0.04026087 0.03639751 0.00825287" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_1_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.30148261 -1.49916438" xyz="0.05949535 0.0372657  0.0103131 " />
+        </visual>
+        <collision name="l_wrist_casing_collision_1">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.30148261 -1.49916438" xyz="0.05949535 0.0372657  0.0103131 " />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_2_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.9173585  -1.48362458" xyz="0.02930032 0.02898298 0.02227676" />
+        </visual>
+        <collision name="l_wrist_casing_collision_2">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.9173585  -1.48362458" xyz="0.02930032 0.02898298 0.02227676" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_3_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.85461579 -1.47898421" xyz="0.06788165 0.02955428 0.02583275" />
+        </visual>
+        <collision name="l_wrist_casing_collision_3">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.85461579 -1.47898421" xyz="0.06788165 0.02955428 0.02583275" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_4_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.82535957 -1.47651581" xyz="0.08716775 0.0297714  0.02760693" />
+        </visual>
+        <collision name="l_wrist_casing_collision_4">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.82535957 -1.47651581" xyz="0.08716775 0.0297714  0.02760693" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_5_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.45379682 -1.41179053" xyz="0.03816411 0.01612838 0.0334939 " />
+        </visual>
+        <collision name="l_wrist_casing_collision_5">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.45379682 -1.41179053" xyz="0.03816411 0.01612838 0.0334939 " />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_6_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.43827188 -1.40646881" xyz="0.0574718  0.01616603 0.03496898" />
+        </visual>
+        <collision name="l_wrist_casing_collision_6">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.43827188 -1.40646881" xyz="0.0574718  0.01616603 0.03496898" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_7_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.41035341 -1.39583169" xyz="0.09603639 0.01623087 0.0378917 " />
+        </visual>
+        <collision name="l_wrist_casing_collision_7">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.41035341 -1.39583169" xyz="0.09603639 0.01623087 0.0378917 " />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_8_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 2.82347064e-02 -4.50768312e-14  3.64804678e-02" />
+        </visual>
+        <collision name="l_wrist_casing_collision_8">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 2.82347064e-02 -4.50768312e-14  3.64804678e-02" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_9_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 6.68894150e-02 -4.69597694e-14  3.91834683e-02" />
+        </visual>
+        <collision name="l_wrist_casing_collision_9">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 6.68894150e-02 -4.69597694e-14  3.91834683e-02" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_10_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 8.62109371e-02 -3.90372179e-14  4.05345607e-02" />
+        </visual>
+        <collision name="l_wrist_casing_collision_10">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 8.62109371e-02 -3.90372179e-14  4.05345607e-02" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_11_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.45379682  1.41019787" xyz=" 0.03816411 -0.01612838  0.0334939 " />
+        </visual>
+        <collision name="l_wrist_casing_collision_11">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.45379682  1.41019787" xyz=" 0.03816411 -0.01612838  0.0334939 " />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_12_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.43827188  1.40487616" xyz=" 0.0574718  -0.01616603  0.03496898" />
+        </visual>
+        <collision name="l_wrist_casing_collision_12">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.43827188  1.40487616" xyz=" 0.0574718  -0.01616603  0.03496898" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_13_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.41035341  1.39423903" xyz=" 0.09603639 -0.01623087  0.0378917 " />
+        </visual>
+        <collision name="l_wrist_casing_collision_13">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.41035341  1.39423903" xyz=" 0.09603639 -0.01623087  0.0378917 " />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_14_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.9173585   1.48203193" xyz=" 0.02930032 -0.02898298  0.02227676" />
+        </visual>
+        <collision name="l_wrist_casing_collision_14">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.9173585   1.48203193" xyz=" 0.02930032 -0.02898298  0.02227676" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_15_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.85461579  1.47739156" xyz=" 0.06788165 -0.02955428  0.02583275" />
+        </visual>
+        <collision name="l_wrist_casing_collision_15">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.85461579  1.47739156" xyz=" 0.06788165 -0.02955428  0.02583275" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_16_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.82535957  1.47492315" xyz=" 0.08716775 -0.0297714   0.02760693" />
+        </visual>
+        <collision name="l_wrist_casing_collision_16">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.82535957  1.47492315" xyz=" 0.08716775 -0.0297714   0.02760693" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_17_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.34837613  1.49842067" xyz=" 0.04026087 -0.03639751  0.00825287" />
+        </visual>
+        <collision name="l_wrist_casing_collision_17">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.34837613  1.49842067" xyz=" 0.04026087 -0.03639751  0.00825287" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_18_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.30148261  1.49757173" xyz=" 0.05949535 -0.0372657   0.0103131 " />
+        </visual>
+        <collision name="l_wrist_casing_collision_18">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.30148261  1.49757173" xyz=" 0.05949535 -0.0372657   0.0103131 " />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_19_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.86342782  1.3131478 " xyz=" 0.0203672  -0.0095658  -0.03463356" />
+        </visual>
+        <collision name="l_wrist_casing_collision_19">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.86342782  1.3131478 " xyz=" 0.0203672  -0.0095658  -0.03463356" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_20_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.86342782 -1.31474046" xyz=" 0.0203672   0.0095658  -0.03463356" />
+        </visual>
+        <collision name="l_wrist_casing_collision_20">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.86342782 -1.31474046" xyz=" 0.0203672   0.0095658  -0.03463356" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_21_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.09765927  1.4892118 " xyz=" 0.03846914 -0.0321253  -0.01874878" />
+        </visual>
+        <collision name="l_wrist_casing_collision_21">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.09765927  1.4892118 " xyz=" 0.03846914 -0.0321253  -0.01874878" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_22_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.61546991  1.43064324" xyz=" 0.03741498 -0.01850665 -0.03218039" />
+        </visual>
+        <collision name="l_wrist_casing_collision_22">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.61546991  1.43064324" xyz=" 0.03741498 -0.01850665 -0.03218039" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_23_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.61546991 -1.43223589" xyz=" 0.03741498  0.01850665 -0.03218039" />
+        </visual>
+        <collision name="l_wrist_casing_collision_23">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.61546991 -1.43223589" xyz=" 0.03741498  0.01850665 -0.03218039" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_24_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.09765927 -1.49080445" xyz=" 0.03846914  0.0321253  -0.01874878" />
+        </visual>
+        <collision name="l_wrist_casing_collision_24">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.09765927 -1.49080445" xyz=" 0.03846914  0.0321253  -0.01874878" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_25_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.879768    1.29713358" xyz=" 0.05382586 -0.00956273 -0.03705597" />
+        </visual>
+        <collision name="l_wrist_casing_collision_25">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.879768    1.29713358" xyz=" 0.05382586 -0.00956273 -0.03705597" />
+        </collision>
+
+        <visual name="l_wrist_casing_collision_26_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.879768   -1.29872623" xyz=" 0.05382586  0.00956273 -0.03705597" />
+        </visual>
+        <collision name="l_wrist_casing_collision_26">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.879768   -1.29872623" xyz=" 0.05382586  0.00956273 -0.03705597" />
+        </collision>
+
+    </xacro:macro>
+    <xacro:macro name="insert_skin_r_wrist_casing">
+        <visual name="r_wrist_casing_collision_0_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.34837613  1.49842067" xyz=" 0.04026087 -0.03639751  0.00825287" />
+        </visual>
+        <collision name="r_wrist_casing_collision_0">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.34837613  1.49842067" xyz=" 0.04026087 -0.03639751  0.00825287" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_1_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.30148261  1.49757173" xyz=" 0.05949535 -0.0372657   0.0103131 " />
+        </visual>
+        <collision name="r_wrist_casing_collision_1">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.30148261  1.49757173" xyz=" 0.05949535 -0.0372657   0.0103131 " />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_2_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.9173585   1.48203193" xyz=" 0.02930032 -0.02898298  0.02227676" />
+        </visual>
+        <collision name="r_wrist_casing_collision_2">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.9173585   1.48203193" xyz=" 0.02930032 -0.02898298  0.02227676" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_3_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.85461579  1.47739156" xyz=" 0.06788165 -0.02955428  0.02583275" />
+        </visual>
+        <collision name="r_wrist_casing_collision_3">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.85461579  1.47739156" xyz=" 0.06788165 -0.02955428  0.02583275" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_4_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.82535957  1.47492315" xyz=" 0.08716775 -0.0297714   0.02760693" />
+        </visual>
+        <collision name="r_wrist_casing_collision_4">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.82535957  1.47492315" xyz=" 0.08716775 -0.0297714   0.02760693" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_5_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.45379682  1.41019787" xyz=" 0.03816411 -0.01612838  0.0334939 " />
+        </visual>
+        <collision name="r_wrist_casing_collision_5">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.45379682  1.41019787" xyz=" 0.03816411 -0.01612838  0.0334939 " />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_6_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.43827188  1.40487616" xyz=" 0.0574718  -0.01616603  0.03496898" />
+        </visual>
+        <collision name="r_wrist_casing_collision_6">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.43827188  1.40487616" xyz=" 0.0574718  -0.01616603  0.03496898" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_7_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.41035341  1.39423903" xyz=" 0.09603639 -0.01623087  0.0378917 " />
+        </visual>
+        <collision name="r_wrist_casing_collision_7">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.41035341  1.39423903" xyz=" 0.09603639 -0.01623087  0.0378917 " />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_8_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="2.82347064e-02 4.50768312e-14 3.64804678e-02" />
+        </visual>
+        <collision name="r_wrist_casing_collision_8">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="2.82347064e-02 4.50768312e-14 3.64804678e-02" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_9_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="6.68894150e-02 4.69597694e-14 3.91834683e-02" />
+        </visual>
+        <collision name="r_wrist_casing_collision_9">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="6.68894150e-02 4.69597694e-14 3.91834683e-02" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_10_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="8.62109371e-02 3.90372179e-14 4.05345607e-02" />
+        </visual>
+        <collision name="r_wrist_casing_collision_10">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="8.62109371e-02 3.90372179e-14 4.05345607e-02" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_11_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.45379682 -1.41179053" xyz="0.03816411 0.01612838 0.0334939 " />
+        </visual>
+        <collision name="r_wrist_casing_collision_11">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.45379682 -1.41179053" xyz="0.03816411 0.01612838 0.0334939 " />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_12_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.43827188 -1.40646881" xyz="0.0574718  0.01616603 0.03496898" />
+        </visual>
+        <collision name="r_wrist_casing_collision_12">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.43827188 -1.40646881" xyz="0.0574718  0.01616603 0.03496898" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_13_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.41035341 -1.39583169" xyz="0.09603639 0.01623087 0.0378917 " />
+        </visual>
+        <collision name="r_wrist_casing_collision_13">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.41035341 -1.39583169" xyz="0.09603639 0.01623087 0.0378917 " />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_14_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.9173585  -1.48362458" xyz="0.02930032 0.02898298 0.02227676" />
+        </visual>
+        <collision name="r_wrist_casing_collision_14">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.9173585  -1.48362458" xyz="0.02930032 0.02898298 0.02227676" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_15_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.85461579 -1.47898421" xyz="0.06788165 0.02955428 0.02583275" />
+        </visual>
+        <collision name="r_wrist_casing_collision_15">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.85461579 -1.47898421" xyz="0.06788165 0.02955428 0.02583275" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_16_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.82535957 -1.47651581" xyz="0.08716775 0.0297714  0.02760693" />
+        </visual>
+        <collision name="r_wrist_casing_collision_16">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -0.82535957 -1.47651581" xyz="0.08716775 0.0297714  0.02760693" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_17_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.34837613 -1.50001332" xyz="0.04026087 0.03639751 0.00825287" />
+        </visual>
+        <collision name="r_wrist_casing_collision_17">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.34837613 -1.50001332" xyz="0.04026087 0.03639751 0.00825287" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_18_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.30148261 -1.49916438" xyz="0.05949535 0.0372657  0.0103131 " />
+        </visual>
+        <collision name="r_wrist_casing_collision_18">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -1.30148261 -1.49916438" xyz="0.05949535 0.0372657  0.0103131 " />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_19_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.86342782 -1.31474046" xyz=" 0.0203672   0.0095658  -0.03463356" />
+        </visual>
+        <collision name="r_wrist_casing_collision_19">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.86342782 -1.31474046" xyz=" 0.0203672   0.0095658  -0.03463356" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_20_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.86342782  1.3131478 " xyz=" 0.0203672  -0.0095658  -0.03463356" />
+        </visual>
+        <collision name="r_wrist_casing_collision_20">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.86342782  1.3131478 " xyz=" 0.0203672  -0.0095658  -0.03463356" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_21_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.09765927 -1.49080445" xyz=" 0.03846914  0.0321253  -0.01874878" />
+        </visual>
+        <collision name="r_wrist_casing_collision_21">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.09765927 -1.49080445" xyz=" 0.03846914  0.0321253  -0.01874878" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_22_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.61546991 -1.43223589" xyz=" 0.03741498  0.01850665 -0.03218039" />
+        </visual>
+        <collision name="r_wrist_casing_collision_22">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.61546991 -1.43223589" xyz=" 0.03741498  0.01850665 -0.03218039" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_23_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.61546991  1.43064324" xyz=" 0.03741498 -0.01850665 -0.03218039" />
+        </visual>
+        <collision name="r_wrist_casing_collision_23">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.61546991  1.43064324" xyz=" 0.03741498 -0.01850665 -0.03218039" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_24_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.09765927  1.4892118 " xyz=" 0.03846914 -0.0321253  -0.01874878" />
+        </visual>
+        <collision name="r_wrist_casing_collision_24">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.09765927  1.4892118 " xyz=" 0.03846914 -0.0321253  -0.01874878" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_25_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.879768   -1.29872623" xyz=" 0.05382586  0.00956273 -0.03705597" />
+        </visual>
+        <collision name="r_wrist_casing_collision_25">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.879768   -1.29872623" xyz=" 0.05382586  0.00956273 -0.03705597" />
+        </collision>
+
+        <visual name="r_wrist_casing_collision_26_visual">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.879768    1.29713358" xyz=" 0.05382586 -0.00956273 -0.03705597" />
+        </visual>
+        <collision name="r_wrist_casing_collision_26">
+            <geometry>
+                <box size="0.015 0.015 0.001" />
+            </geometry>
+            <origin rpy=" 0.         -2.879768    1.29713358" xyz=" 0.05382586 -0.00956273 -0.03705597" />
+        </collision>
+
+    </xacro:macro>
+    <xacro:if value="$(arg contact_torso)">
+        <gazebo reference="torso_casing">
+            <sensor name="torso_casing_collision_sensor" type="contact">
+                <plugin name="contact_plugin_torso_casing" filename="libcontact.so" />
+                <always_on>1</always_on>
+                <visualize>true</visualize>
+                <update_rate>100</update_rate>
+                <contact>
+                    <collision>torso_casing_collision_0</collision>
+                    <collision>torso_casing_collision_1</collision>
+                    <collision>torso_casing_collision_2</collision>
+                    <collision>torso_casing_collision_3</collision>
+                    <collision>torso_casing_collision_4</collision>
+                    <collision>torso_casing_collision_5</collision>
+                    <collision>torso_casing_collision_6</collision>
+                    <collision>torso_casing_collision_7</collision>
+                    <collision>torso_casing_collision_8</collision>
+                    <collision>torso_casing_collision_9</collision>
+                    <collision>torso_casing_collision_10</collision>
+                    <collision>torso_casing_collision_11</collision>
+                    <collision>torso_casing_collision_12</collision>
+                    <collision>torso_casing_collision_13</collision>
+                    <collision>torso_casing_collision_14</collision>
+                    <collision>torso_casing_collision_15</collision>
+                    <collision>torso_casing_collision_16</collision>
+                    <collision>torso_casing_collision_17</collision>
+                    <collision>torso_casing_collision_18</collision>
+                    <collision>torso_casing_collision_19</collision>
+                    <collision>torso_casing_collision_20</collision>
+                    <collision>torso_casing_collision_21</collision>
+                    <collision>torso_casing_collision_22</collision>
+                    <collision>torso_casing_collision_23</collision>
+                    <collision>torso_casing_collision_24</collision>
+                </contact>
+            </sensor>
+        </gazebo>
+    </xacro:if>
+    <xacro:if value="$(arg contact_head)">
+        <gazebo reference="head_casing">
+            <sensor name="head_casing_collision_sensor" type="contact">
+                <plugin name="contact_plugin_head_casing" filename="libcontact.so" />
+                <always_on>1</always_on>
+                <visualize>true</visualize>
+                <update_rate>100</update_rate>
+                <contact>
+                    <collision>head_casing_collision_0</collision>
+                    <collision>head_casing_collision_1</collision>
+                    <collision>head_casing_collision_2</collision>
+                    <collision>head_casing_collision_3</collision>
+                    <collision>head_casing_collision_4</collision>
+                    <collision>head_casing_collision_5</collision>
+                    <collision>head_casing_collision_6</collision>
+                    <collision>head_casing_collision_7</collision>
+                    <collision>head_casing_collision_8</collision>
+                    <collision>head_casing_collision_9</collision>
+                    <collision>head_casing_collision_10</collision>
+                    <collision>head_casing_collision_11</collision>
+                    <collision>head_casing_collision_12</collision>
+                    <collision>head_casing_collision_13</collision>
+                    <collision>head_casing_collision_14</collision>
+                    <collision>head_casing_collision_15</collision>
+                    <collision>head_casing_collision_16</collision>
+                    <collision>head_casing_collision_17</collision>
+                    <collision>head_casing_collision_18</collision>
+                    <collision>head_casing_collision_19</collision>
+                    <collision>head_casing_collision_20</collision>
+                    <collision>head_casing_collision_21</collision>
+                    <collision>head_casing_collision_22</collision>
+                    <collision>head_casing_collision_23</collision>
+                </contact>
+            </sensor>
+        </gazebo>
+    </xacro:if>
+    <xacro:if value="$(arg contact_left_arm)">
+        <gazebo reference="l_wrist_casing">
+            <sensor name="l_wrist_casing_collision_sensor" type="contact">
+                <plugin name="contact_plugin_l_wrist_casing" filename="libcontact.so" />
+                <always_on>1</always_on>
+                <visualize>true</visualize>
+                <update_rate>100</update_rate>
+                <contact>
+                    <collision>l_wrist_casing_collision_0</collision>
+                    <collision>l_wrist_casing_collision_1</collision>
+                    <collision>l_wrist_casing_collision_2</collision>
+                    <collision>l_wrist_casing_collision_3</collision>
+                    <collision>l_wrist_casing_collision_4</collision>
+                    <collision>l_wrist_casing_collision_5</collision>
+                    <collision>l_wrist_casing_collision_6</collision>
+                    <collision>l_wrist_casing_collision_7</collision>
+                    <collision>l_wrist_casing_collision_8</collision>
+                    <collision>l_wrist_casing_collision_9</collision>
+                    <collision>l_wrist_casing_collision_10</collision>
+                    <collision>l_wrist_casing_collision_11</collision>
+                    <collision>l_wrist_casing_collision_12</collision>
+                    <collision>l_wrist_casing_collision_13</collision>
+                    <collision>l_wrist_casing_collision_14</collision>
+                    <collision>l_wrist_casing_collision_15</collision>
+                    <collision>l_wrist_casing_collision_16</collision>
+                    <collision>l_wrist_casing_collision_17</collision>
+                    <collision>l_wrist_casing_collision_18</collision>
+                    <collision>l_wrist_casing_collision_19</collision>
+                    <collision>l_wrist_casing_collision_20</collision>
+                    <collision>l_wrist_casing_collision_21</collision>
+                    <collision>l_wrist_casing_collision_22</collision>
+                    <collision>l_wrist_casing_collision_23</collision>
+                    <collision>l_wrist_casing_collision_24</collision>
+                    <collision>l_wrist_casing_collision_25</collision>
+                    <collision>l_wrist_casing_collision_26</collision>
+                </contact>
+            </sensor>
+        </gazebo>
+    </xacro:if>
+    <xacro:if value="$(arg contact_right_arm)">
+        <gazebo reference="r_wrist_casing">
+            <sensor name="r_wrist_casing_collision_sensor" type="contact">
+                <plugin name="contact_plugin_r_wrist_casing" filename="libcontact.so" />
+                <always_on>1</always_on>
+                <visualize>true</visualize>
+                <update_rate>100</update_rate>
+                <contact>
+                    <collision>r_wrist_casing_collision_0</collision>
+                    <collision>r_wrist_casing_collision_1</collision>
+                    <collision>r_wrist_casing_collision_2</collision>
+                    <collision>r_wrist_casing_collision_3</collision>
+                    <collision>r_wrist_casing_collision_4</collision>
+                    <collision>r_wrist_casing_collision_5</collision>
+                    <collision>r_wrist_casing_collision_6</collision>
+                    <collision>r_wrist_casing_collision_7</collision>
+                    <collision>r_wrist_casing_collision_8</collision>
+                    <collision>r_wrist_casing_collision_9</collision>
+                    <collision>r_wrist_casing_collision_10</collision>
+                    <collision>r_wrist_casing_collision_11</collision>
+                    <collision>r_wrist_casing_collision_12</collision>
+                    <collision>r_wrist_casing_collision_13</collision>
+                    <collision>r_wrist_casing_collision_14</collision>
+                    <collision>r_wrist_casing_collision_15</collision>
+                    <collision>r_wrist_casing_collision_16</collision>
+                    <collision>r_wrist_casing_collision_17</collision>
+                    <collision>r_wrist_casing_collision_18</collision>
+                    <collision>r_wrist_casing_collision_19</collision>
+                    <collision>r_wrist_casing_collision_20</collision>
+                    <collision>r_wrist_casing_collision_21</collision>
+                    <collision>r_wrist_casing_collision_22</collision>
+                    <collision>r_wrist_casing_collision_23</collision>
+                    <collision>r_wrist_casing_collision_24</collision>
+                    <collision>r_wrist_casing_collision_25</collision>
+                    <collision>r_wrist_casing_collision_26</collision>
+                </contact>
+            </sensor>
+        </gazebo>
+    </xacro:if>
+
+</robot>

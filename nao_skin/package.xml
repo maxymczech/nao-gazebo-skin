@@ -20,6 +20,8 @@
   <run_depend>nao_control</run_depend>
   <run_depend>nao_description</run_depend>
   <run_depend>nao_gazebo_plugin</run_depend>
+  <run_depend>nao_meshes</run_depend>
+  <run_depend>nao_robot</run_depend>
   <run_depend>urdf</run_depend>
   <run_depend>xacro</run_depend>
   
