@@ -66,3 +66,5 @@ This framework is a continuation of my bachelor thesis. You can download PDF
 version [here](https://dspace.cvut.cz/handle/10467/82501). The thesis includes
 motivation behind the research, motivation behind the augmentations made
 to default __NAO__ robot `urdf` code etc.
+
+![Gazebo screenshot of high-resolution artificial skin](./gazebo-screenshot.png)
