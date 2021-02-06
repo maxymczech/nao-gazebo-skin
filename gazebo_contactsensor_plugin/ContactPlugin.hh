@@ -5,6 +5,8 @@
 
 #include <gazebo/gazebo.hh>
 #include <gazebo/sensors/sensors.hh>
+#include "gazebo/transport/Node.hh"
+#include "gazebo/transport/Publisher.hh"
 #include <iostream>
 
 #include "ros/ros.h"
@@ -55,6 +57,8 @@ namespace gazebo
     
     //ROS
     private: ros::Publisher chatter_pub;
+    private: int lastContactAge;
+    private: std::string lastContactName;
 
     /// Attributes for network communication
   public: int InitUDP();

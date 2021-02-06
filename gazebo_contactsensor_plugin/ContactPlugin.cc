@@ -2,7 +2,10 @@
 #include <memory>
 #include <string>
 
+#define MAX_LAST_CONTACT_AGE 2
+
 using namespace gazebo;
+using namespace transport;
 GZ_REGISTER_SENSOR_PLUGIN(ContactPlugin)
 
 ContactPlugin::ContactPlugin() : SensorPlugin(){
@@ -10,6 +13,8 @@ ContactPlugin::ContactPlugin() : SensorPlugin(){
 
 ContactPlugin::~ContactPlugin(){
   char m[] = "Shutting down...";
+  lastContactAge = MAX_LAST_CONTACT_AGE + 1;
+  lastContactName = "";
   SendUDP(m);
   close(this->sockd);
 }
@@ -32,7 +37,7 @@ void ContactPlugin::Load(sensors::SensorPtr _sensor, sdf::ElementPtr /*_sdf*/){
 
   this->InitUDP();
   
-  std::string parent_sensor_name = (this->parentSensor)->ParentName().substr(9, std::string::npos);
+  std::string parent_sensor_name = (this->parentSensor)->ParentName().substr(10, std::string::npos);
   std::cout << "ContactPlugin runnning." << "\n" << "Parent sensor name: " << parent_sensor_name << "\n";
   
   // ROS interface
@@ -42,6 +47,16 @@ void ContactPlugin::Load(sensors::SensorPtr _sensor, sdf::ElementPtr /*_sdf*/){
   ros::NodeHandle n;
   this->chatter_pub = n.advertise<std_msgs::String>("/gazebo_contact_info/" + parent_sensor_name, 1);
   //ros::spin(); //Seems like we don't need this here
+
+  // Contact visualization
+  NodePtr node = NodePtr(new Node());
+  node->Init();
+  PublisherPtr requestPub = node->Advertise<msgs::Request>("~/request");
+  requestPub->WaitForConnection();
+  // if (requestPub->WaitForConnection()) {
+    msgs::Request *request = msgs::CreateRequest("show_contact");
+    requestPub->Publish(*request);
+  // }
 }
 
 void ContactPlugin::OnUpdate(){
@@ -50,7 +65,9 @@ void ContactPlugin::OnUpdate(){
   contacts = this->parentSensor->Contacts();
   std::set<std::pair<std::string, std::string>> measuredSet;
   std::string str_out = "none";
-  //std::cout << "Contact size: " << contacts.contact_size() << "\n";
+  // if (contacts.contact_size()) {
+  //  std::cout << "Total number of contacts: " << contacts.contact_size() << "\n";
+  // }
   for (unsigned int i = 0; i < contacts.contact_size(); ++i){
     std::string col1 = contacts.contact(i).collision1();
     std::string col2 = contacts.contact(i).collision2();
@@ -95,7 +112,17 @@ void ContactPlugin::OnUpdate(){
     }
   }
   
-  //Publish str_out to ROS topic
+  // Publish str_out to ROS topic
+  if (str_out.compare("none") != 0) {
+    lastContactAge = 0;
+    lastContactName.assign(str_out);
+  } else {
+    lastContactAge++;
+    if (lastContactAge < MAX_LAST_CONTACT_AGE) {
+      str_out.assign(lastContactName);
+    }
+  }
+
   std_msgs::String msg;
   msg.data = str_out;
   this->chatter_pub.publish(msg);
@@ -145,4 +172,3 @@ int ContactPlugin::SendUDP(char message[]){
     sizeof(this->srv_addr)
   );
 }
-
