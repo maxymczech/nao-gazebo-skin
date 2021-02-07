@@ -4,6 +4,7 @@
   <arg name="contact_head" default="true" />
   <arg name="contact_left_arm" default="true" />
   <arg name="contact_right_arm" default="true" />
+  <arg name="fake_arms" default="false" />
 
   <include file="$(find nao_skin)/launch/nao_skin.launch">
     <arg name="version" value="V40_skin_lowres" />
@@ -11,5 +12,6 @@
     <arg name="contact_head" value="$(arg contact_head)" />
     <arg name="contact_left_arm" value="$(arg contact_left_arm)" />
     <arg name="contact_right_arm" value="$(arg contact_right_arm)" />
+    <arg name="fake_arms" value="$(arg fake_arms)" />
   </include>
 </launch>

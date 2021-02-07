@@ -358,12 +358,14 @@
 				</geometry>
 				<origin rpy="1.57079632679 0 1.57079632679" xyz="0.029 0 0"/>
 			</visual>
-			<collision>
-				<geometry>
-					<cylinder length="0.058" radius="0.015"/>
-				</geometry>
-				<origin rpy="1.57079632679 0 1.57079632679" xyz="0.029 0 0"/>
-			</collision>
+			<xacro:unless value="$(arg fake_arms)">
+				<collision>
+					<geometry>
+						<cylinder length="0.058" radius="0.015"/>
+					</geometry>
+					<origin rpy="1.57079632679 0 1.57079632679" xyz="0.029 0 0"/>
+				</collision>
+			</xacro:unless>
 		</xacro:unless>
 		<xacro:if value="${meshes_installed}">
 			<visual>
@@ -372,12 +374,14 @@
 				</geometry>
 				<origin rpy="0 0 0" xyz="0 0 0"/>
 			</visual>
-			<collision>
-				<geometry>
-					<mesh filename="package://nao_meshes/meshes/V40/RWristYaw_0.10.stl" scale="0.1 0.1 0.1" />
-				</geometry>
-				<origin rpy="0 0 0" xyz="0 0 0"/>
-			</collision>
+			<xacro:unless value="$(arg fake_arms)">
+				<collision>
+					<geometry>
+						<mesh filename="package://nao_meshes/meshes/V40/RWristYaw_0.10.stl" scale="0.1 0.1 0.1" />
+					</geometry>
+					<origin rpy="0 0 0" xyz="0 0 0"/>
+				</collision>
+			</xacro:unless>
 		</xacro:if>
 	</xacro:macro>
 
@@ -414,6 +418,10 @@
 		</collision>
 	</xacro:macro>
 
+	<xacro:macro name="insert_pen_link_origin">
+		<origin rpy="0 0 0" xyz="${pen_offset_x-0.025} 0 ${-pen_length/2+pen_offset_z-pen_radius}" />
+	</xacro:macro>
+
 	<xacro:macro name="insert_visu_r_wrist_casing">
 		<xacro:unless value="${meshes_installed}" />
 		<xacro:if value="${meshes_installed}">
@@ -423,12 +431,14 @@
 				</geometry>
 				<origin rpy="0 0 0" xyz="0 0 0"/>
 			</visual>
-			<collision>
-				<geometry>
-					<mesh filename="package://nao_skin/meshes/casing/rwrist_casing.dae" scale="0.1 0.1 0.1" />
-				</geometry>
-				<origin rpy="0 0 0" xyz="0 0 0"/>
-			</collision>
+			<xacro:unless value="$(arg fake_arms)">
+				<collision>
+					<geometry>
+						<mesh filename="package://nao_skin/meshes/casing/rwrist_casing.dae" scale="0.1 0.1 0.1" />
+					</geometry>
+					<origin rpy="0 0 0" xyz="0 0 0"/>
+				</collision>
+			</xacro:unless>
 
 			<!-- Pen -->
 			<xacro:insert_pen />
@@ -589,12 +599,14 @@
 				</geometry>
 				<origin rpy="1.57079632679 0 1.57079632679" xyz="0.029 0 0"/>
 			</visual>
-			<collision>
-				<geometry>
-					<cylinder length="0.058" radius="0.015"/>
-				</geometry>
-				<origin rpy="1.57079632679 0 1.57079632679" xyz="0.029 0 0"/>
-			</collision>
+			<xacro:unless value="$(arg fake_arms)">
+				<collision>
+					<geometry>
+						<cylinder length="0.058" radius="0.015"/>
+					</geometry>
+					<origin rpy="1.57079632679 0 1.57079632679" xyz="0.029 0 0"/>
+				</collision>
+			</xacro:unless>
 		</xacro:unless>
 		<xacro:if value="${meshes_installed}">
 			<visual>
@@ -603,12 +615,14 @@
 				</geometry>
 				<origin rpy="0 0 0" xyz="0 0 0"/>
 			</visual>
-			<collision>
-				<geometry>
-					<mesh filename="package://nao_meshes/meshes/V40/LWristYaw_0.10.stl" scale="0.1 0.1 0.1"/>
-				</geometry>
-				<origin rpy="0 0 0" xyz="0 0 0"/>
-			</collision>
+			<xacro:unless value="$(arg fake_arms)">
+				<collision>
+					<geometry>
+						<mesh filename="package://nao_meshes/meshes/V40/LWristYaw_0.10.stl" scale="0.1 0.1 0.1"/>
+					</geometry>
+					<origin rpy="0 0 0" xyz="0 0 0"/>
+				</collision>
+			</xacro:unless>
 		</xacro:if>
 	</xacro:macro>
 	<xacro:macro name="insert_visu_l_wrist_casing">
@@ -620,12 +634,14 @@
 				</geometry>
 				<origin rpy="0 0 0" xyz="0 0 0"/>
 			</visual>
-			<collision>
-				<geometry>
-					<mesh filename="package://nao_skin/meshes/casing/lwrist_casing.dae" scale="0.1 0.1 0.1" />
-				</geometry>
-				<origin rpy="0 0 0" xyz="0 0 0"/>
-			</collision>
+			<xacro:unless value="$(arg fake_arms)">
+				<collision>
+					<geometry>
+						<mesh filename="package://nao_skin/meshes/casing/lwrist_casing.dae" scale="0.1 0.1 0.1" />
+					</geometry>
+					<origin rpy="0 0 0" xyz="0 0 0"/>
+				</collision>
+			</xacro:unless>
 
 			<!-- Pen -->
 			<xacro:insert_pen />

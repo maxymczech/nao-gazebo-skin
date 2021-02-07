@@ -6,7 +6,8 @@
   <arg name="contact_head" default="true" />
   <arg name="contact_left_arm" default="true" />
   <arg name="contact_right_arm" default="true" />
-  <param name="robot_description" command="$(find xacro)/xacro $(find nao_skin)/urdf/nao$(arg version)_generated_urdf/nao_robot.xacro contact_torso:=$(arg contact_torso) contact_head:=$(arg contact_head) contact_left_arm:=$(arg contact_left_arm) contact_right_arm:=$(arg contact_right_arm)" />
+  <arg name="fake_arms" value="$(arg fake_arms)" />
+  <param name="robot_description" command="$(find xacro)/xacro $(find nao_skin)/urdf/nao$(arg version)_generated_urdf/nao_robot.xacro contact_torso:=$(arg contact_torso) contact_head:=$(arg contact_head) contact_left_arm:=$(arg contact_left_arm) contact_right_arm:=$(arg contact_right_arm) fake_arms:=$(arg fake_arms)" />
 
   <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch" />

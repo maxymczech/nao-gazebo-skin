@@ -648,12 +648,14 @@
             </geometry>
             <origin rpy=" 0.         -1.34837613 -1.50001332" xyz="0.04026087 0.03639751 0.00825287" />
         </visual>
-        <collision name="l_wrist_casing_collision_0">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -1.34837613 -1.50001332" xyz="0.04026087 0.03639751 0.00825287" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_0">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -1.34837613 -1.50001332" xyz="0.04026087 0.03639751 0.00825287" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_1_visual">
             <geometry>
@@ -661,12 +663,14 @@
             </geometry>
             <origin rpy=" 0.         -1.30148261 -1.49916438" xyz="0.05949535 0.0372657  0.0103131 " />
         </visual>
-        <collision name="l_wrist_casing_collision_1">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -1.30148261 -1.49916438" xyz="0.05949535 0.0372657  0.0103131 " />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_1">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -1.30148261 -1.49916438" xyz="0.05949535 0.0372657  0.0103131 " />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_2_visual">
             <geometry>
@@ -674,12 +678,14 @@
             </geometry>
             <origin rpy=" 0.         -0.9173585  -1.48362458" xyz="0.02930032 0.02898298 0.02227676" />
         </visual>
-        <collision name="l_wrist_casing_collision_2">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.9173585  -1.48362458" xyz="0.02930032 0.02898298 0.02227676" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_2">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.9173585  -1.48362458" xyz="0.02930032 0.02898298 0.02227676" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_3_visual">
             <geometry>
@@ -687,12 +693,14 @@
             </geometry>
             <origin rpy=" 0.         -0.85461579 -1.47898421" xyz="0.06788165 0.02955428 0.02583275" />
         </visual>
-        <collision name="l_wrist_casing_collision_3">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.85461579 -1.47898421" xyz="0.06788165 0.02955428 0.02583275" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_3">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.85461579 -1.47898421" xyz="0.06788165 0.02955428 0.02583275" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_4_visual">
             <geometry>
@@ -700,12 +708,14 @@
             </geometry>
             <origin rpy=" 0.         -0.82535957 -1.47651581" xyz="0.08716775 0.0297714  0.02760693" />
         </visual>
-        <collision name="l_wrist_casing_collision_4">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.82535957 -1.47651581" xyz="0.08716775 0.0297714  0.02760693" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_4">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.82535957 -1.47651581" xyz="0.08716775 0.0297714  0.02760693" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_5_visual">
             <geometry>
@@ -713,12 +723,14 @@
             </geometry>
             <origin rpy=" 0.         -0.45379682 -1.41179053" xyz="0.03816411 0.01612838 0.0334939 " />
         </visual>
-        <collision name="l_wrist_casing_collision_5">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.45379682 -1.41179053" xyz="0.03816411 0.01612838 0.0334939 " />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_5">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.45379682 -1.41179053" xyz="0.03816411 0.01612838 0.0334939 " />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_6_visual">
             <geometry>
@@ -726,12 +738,14 @@
             </geometry>
             <origin rpy=" 0.         -0.43827188 -1.40646881" xyz="0.0574718  0.01616603 0.03496898" />
         </visual>
-        <collision name="l_wrist_casing_collision_6">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.43827188 -1.40646881" xyz="0.0574718  0.01616603 0.03496898" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_6">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.43827188 -1.40646881" xyz="0.0574718  0.01616603 0.03496898" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_7_visual">
             <geometry>
@@ -739,12 +753,14 @@
             </geometry>
             <origin rpy=" 0.         -0.41035341 -1.39583169" xyz="0.09603639 0.01623087 0.0378917 " />
         </visual>
-        <collision name="l_wrist_casing_collision_7">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.41035341 -1.39583169" xyz="0.09603639 0.01623087 0.0378917 " />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_7">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.41035341 -1.39583169" xyz="0.09603639 0.01623087 0.0378917 " />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_8_visual">
             <geometry>
@@ -752,12 +768,14 @@
             </geometry>
             <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 2.82347064e-02 -4.50768312e-14  3.64804678e-02" />
         </visual>
-        <collision name="l_wrist_casing_collision_8">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 2.82347064e-02 -4.50768312e-14  3.64804678e-02" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_8">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 2.82347064e-02 -4.50768312e-14  3.64804678e-02" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_9_visual">
             <geometry>
@@ -765,12 +783,14 @@
             </geometry>
             <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 6.68894150e-02 -4.69597694e-14  3.91834683e-02" />
         </visual>
-        <collision name="l_wrist_casing_collision_9">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 6.68894150e-02 -4.69597694e-14  3.91834683e-02" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_9">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 6.68894150e-02 -4.69597694e-14  3.91834683e-02" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_10_visual">
             <geometry>
@@ -778,12 +798,14 @@
             </geometry>
             <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 8.62109371e-02 -3.90372179e-14  4.05345607e-02" />
         </visual>
-        <collision name="l_wrist_casing_collision_10">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 8.62109371e-02 -3.90372179e-14  4.05345607e-02" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_10">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.06981317 -0.00079633" xyz=" 8.62109371e-02 -3.90372179e-14  4.05345607e-02" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_11_visual">
             <geometry>
@@ -791,12 +813,14 @@
             </geometry>
             <origin rpy=" 0.         -0.45379682  1.41019787" xyz=" 0.03816411 -0.01612838  0.0334939 " />
         </visual>
-        <collision name="l_wrist_casing_collision_11">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.45379682  1.41019787" xyz=" 0.03816411 -0.01612838  0.0334939 " />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_11">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.45379682  1.41019787" xyz=" 0.03816411 -0.01612838  0.0334939 " />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_12_visual">
             <geometry>
@@ -804,12 +828,14 @@
             </geometry>
             <origin rpy=" 0.         -0.43827188  1.40487616" xyz=" 0.0574718  -0.01616603  0.03496898" />
         </visual>
-        <collision name="l_wrist_casing_collision_12">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.43827188  1.40487616" xyz=" 0.0574718  -0.01616603  0.03496898" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_12">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.43827188  1.40487616" xyz=" 0.0574718  -0.01616603  0.03496898" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_13_visual">
             <geometry>
@@ -817,12 +843,14 @@
             </geometry>
             <origin rpy=" 0.         -0.41035341  1.39423903" xyz=" 0.09603639 -0.01623087  0.0378917 " />
         </visual>
-        <collision name="l_wrist_casing_collision_13">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.41035341  1.39423903" xyz=" 0.09603639 -0.01623087  0.0378917 " />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_13">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.41035341  1.39423903" xyz=" 0.09603639 -0.01623087  0.0378917 " />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_14_visual">
             <geometry>
@@ -830,12 +858,14 @@
             </geometry>
             <origin rpy=" 0.         -0.9173585   1.48203193" xyz=" 0.02930032 -0.02898298  0.02227676" />
         </visual>
-        <collision name="l_wrist_casing_collision_14">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.9173585   1.48203193" xyz=" 0.02930032 -0.02898298  0.02227676" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_14">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.9173585   1.48203193" xyz=" 0.02930032 -0.02898298  0.02227676" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_15_visual">
             <geometry>
@@ -843,12 +873,14 @@
             </geometry>
             <origin rpy=" 0.         -0.85461579  1.47739156" xyz=" 0.06788165 -0.02955428  0.02583275" />
         </visual>
-        <collision name="l_wrist_casing_collision_15">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.85461579  1.47739156" xyz=" 0.06788165 -0.02955428  0.02583275" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_15">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.85461579  1.47739156" xyz=" 0.06788165 -0.02955428  0.02583275" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_16_visual">
             <geometry>
@@ -856,12 +888,14 @@
             </geometry>
             <origin rpy=" 0.         -0.82535957  1.47492315" xyz=" 0.08716775 -0.0297714   0.02760693" />
         </visual>
-        <collision name="l_wrist_casing_collision_16">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.82535957  1.47492315" xyz=" 0.08716775 -0.0297714   0.02760693" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_16">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.82535957  1.47492315" xyz=" 0.08716775 -0.0297714   0.02760693" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_17_visual">
             <geometry>
@@ -869,12 +903,14 @@
             </geometry>
             <origin rpy=" 0.         -1.34837613  1.49842067" xyz=" 0.04026087 -0.03639751  0.00825287" />
         </visual>
-        <collision name="l_wrist_casing_collision_17">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -1.34837613  1.49842067" xyz=" 0.04026087 -0.03639751  0.00825287" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_17">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -1.34837613  1.49842067" xyz=" 0.04026087 -0.03639751  0.00825287" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_18_visual">
             <geometry>
@@ -882,12 +918,14 @@
             </geometry>
             <origin rpy=" 0.         -1.30148261  1.49757173" xyz=" 0.05949535 -0.0372657   0.0103131 " />
         </visual>
-        <collision name="l_wrist_casing_collision_18">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -1.30148261  1.49757173" xyz=" 0.05949535 -0.0372657   0.0103131 " />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_18">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -1.30148261  1.49757173" xyz=" 0.05949535 -0.0372657   0.0103131 " />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_19_visual">
             <geometry>
@@ -895,12 +933,14 @@
             </geometry>
             <origin rpy=" 0.         -2.86342782  1.3131478 " xyz=" 0.0203672  -0.0095658  -0.03463356" />
         </visual>
-        <collision name="l_wrist_casing_collision_19">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.86342782  1.3131478 " xyz=" 0.0203672  -0.0095658  -0.03463356" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_19">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.86342782  1.3131478 " xyz=" 0.0203672  -0.0095658  -0.03463356" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_20_visual">
             <geometry>
@@ -908,12 +948,14 @@
             </geometry>
             <origin rpy=" 0.         -2.86342782 -1.31474046" xyz=" 0.0203672   0.0095658  -0.03463356" />
         </visual>
-        <collision name="l_wrist_casing_collision_20">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.86342782 -1.31474046" xyz=" 0.0203672   0.0095658  -0.03463356" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_20">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.86342782 -1.31474046" xyz=" 0.0203672   0.0095658  -0.03463356" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_21_visual">
             <geometry>
@@ -921,12 +963,14 @@
             </geometry>
             <origin rpy=" 0.         -2.09765927  1.4892118 " xyz=" 0.03846914 -0.0321253  -0.01874878" />
         </visual>
-        <collision name="l_wrist_casing_collision_21">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.09765927  1.4892118 " xyz=" 0.03846914 -0.0321253  -0.01874878" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_21">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.09765927  1.4892118 " xyz=" 0.03846914 -0.0321253  -0.01874878" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_22_visual">
             <geometry>
@@ -934,12 +978,14 @@
             </geometry>
             <origin rpy=" 0.         -2.61546991  1.43064324" xyz=" 0.03741498 -0.01850665 -0.03218039" />
         </visual>
-        <collision name="l_wrist_casing_collision_22">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.61546991  1.43064324" xyz=" 0.03741498 -0.01850665 -0.03218039" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_22">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.61546991  1.43064324" xyz=" 0.03741498 -0.01850665 -0.03218039" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_23_visual">
             <geometry>
@@ -947,12 +993,14 @@
             </geometry>
             <origin rpy=" 0.         -2.61546991 -1.43223589" xyz=" 0.03741498  0.01850665 -0.03218039" />
         </visual>
-        <collision name="l_wrist_casing_collision_23">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.61546991 -1.43223589" xyz=" 0.03741498  0.01850665 -0.03218039" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_23">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.61546991 -1.43223589" xyz=" 0.03741498  0.01850665 -0.03218039" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_24_visual">
             <geometry>
@@ -960,12 +1008,14 @@
             </geometry>
             <origin rpy=" 0.         -2.09765927 -1.49080445" xyz=" 0.03846914  0.0321253  -0.01874878" />
         </visual>
-        <collision name="l_wrist_casing_collision_24">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.09765927 -1.49080445" xyz=" 0.03846914  0.0321253  -0.01874878" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_24">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.09765927 -1.49080445" xyz=" 0.03846914  0.0321253  -0.01874878" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_25_visual">
             <geometry>
@@ -973,12 +1023,14 @@
             </geometry>
             <origin rpy=" 0.         -2.879768    1.29713358" xyz=" 0.05382586 -0.00956273 -0.03705597" />
         </visual>
-        <collision name="l_wrist_casing_collision_25">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.879768    1.29713358" xyz=" 0.05382586 -0.00956273 -0.03705597" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_25">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.879768    1.29713358" xyz=" 0.05382586 -0.00956273 -0.03705597" />
+            </collision>
+        </xacro:unless>
 
         <visual name="l_wrist_casing_collision_26_visual">
             <geometry>
@@ -986,12 +1038,14 @@
             </geometry>
             <origin rpy=" 0.         -2.879768   -1.29872623" xyz=" 0.05382586  0.00956273 -0.03705597" />
         </visual>
-        <collision name="l_wrist_casing_collision_26">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.879768   -1.29872623" xyz=" 0.05382586  0.00956273 -0.03705597" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="l_wrist_casing_collision_26">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.879768   -1.29872623" xyz=" 0.05382586  0.00956273 -0.03705597" />
+            </collision>
+        </xacro:unless>
 
     </xacro:macro>
     <xacro:macro name="insert_skin_r_wrist_casing">
@@ -1001,12 +1055,14 @@
             </geometry>
             <origin rpy=" 0.         -1.34837613  1.49842067" xyz=" 0.04026087 -0.03639751  0.00825287" />
         </visual>
-        <collision name="r_wrist_casing_collision_0">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -1.34837613  1.49842067" xyz=" 0.04026087 -0.03639751  0.00825287" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_0">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -1.34837613  1.49842067" xyz=" 0.04026087 -0.03639751  0.00825287" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_1_visual">
             <geometry>
@@ -1014,12 +1070,14 @@
             </geometry>
             <origin rpy=" 0.         -1.30148261  1.49757173" xyz=" 0.05949535 -0.0372657   0.0103131 " />
         </visual>
-        <collision name="r_wrist_casing_collision_1">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -1.30148261  1.49757173" xyz=" 0.05949535 -0.0372657   0.0103131 " />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_1">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -1.30148261  1.49757173" xyz=" 0.05949535 -0.0372657   0.0103131 " />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_2_visual">
             <geometry>
@@ -1027,12 +1085,14 @@
             </geometry>
             <origin rpy=" 0.         -0.9173585   1.48203193" xyz=" 0.02930032 -0.02898298  0.02227676" />
         </visual>
-        <collision name="r_wrist_casing_collision_2">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.9173585   1.48203193" xyz=" 0.02930032 -0.02898298  0.02227676" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_2">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.9173585   1.48203193" xyz=" 0.02930032 -0.02898298  0.02227676" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_3_visual">
             <geometry>
@@ -1040,12 +1100,14 @@
             </geometry>
             <origin rpy=" 0.         -0.85461579  1.47739156" xyz=" 0.06788165 -0.02955428  0.02583275" />
         </visual>
-        <collision name="r_wrist_casing_collision_3">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.85461579  1.47739156" xyz=" 0.06788165 -0.02955428  0.02583275" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_3">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.85461579  1.47739156" xyz=" 0.06788165 -0.02955428  0.02583275" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_4_visual">
             <geometry>
@@ -1053,12 +1115,14 @@
             </geometry>
             <origin rpy=" 0.         -0.82535957  1.47492315" xyz=" 0.08716775 -0.0297714   0.02760693" />
         </visual>
-        <collision name="r_wrist_casing_collision_4">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.82535957  1.47492315" xyz=" 0.08716775 -0.0297714   0.02760693" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_4">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.82535957  1.47492315" xyz=" 0.08716775 -0.0297714   0.02760693" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_5_visual">
             <geometry>
@@ -1066,12 +1130,14 @@
             </geometry>
             <origin rpy=" 0.         -0.45379682  1.41019787" xyz=" 0.03816411 -0.01612838  0.0334939 " />
         </visual>
-        <collision name="r_wrist_casing_collision_5">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.45379682  1.41019787" xyz=" 0.03816411 -0.01612838  0.0334939 " />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_5">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.45379682  1.41019787" xyz=" 0.03816411 -0.01612838  0.0334939 " />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_6_visual">
             <geometry>
@@ -1079,12 +1145,14 @@
             </geometry>
             <origin rpy=" 0.         -0.43827188  1.40487616" xyz=" 0.0574718  -0.01616603  0.03496898" />
         </visual>
-        <collision name="r_wrist_casing_collision_6">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.43827188  1.40487616" xyz=" 0.0574718  -0.01616603  0.03496898" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_6">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.43827188  1.40487616" xyz=" 0.0574718  -0.01616603  0.03496898" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_7_visual">
             <geometry>
@@ -1092,12 +1160,14 @@
             </geometry>
             <origin rpy=" 0.         -0.41035341  1.39423903" xyz=" 0.09603639 -0.01623087  0.0378917 " />
         </visual>
-        <collision name="r_wrist_casing_collision_7">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.41035341  1.39423903" xyz=" 0.09603639 -0.01623087  0.0378917 " />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_7">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.41035341  1.39423903" xyz=" 0.09603639 -0.01623087  0.0378917 " />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_8_visual">
             <geometry>
@@ -1105,12 +1175,14 @@
             </geometry>
             <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="2.82347064e-02 4.50768312e-14 3.64804678e-02" />
         </visual>
-        <collision name="r_wrist_casing_collision_8">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="2.82347064e-02 4.50768312e-14 3.64804678e-02" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_8">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="2.82347064e-02 4.50768312e-14 3.64804678e-02" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_9_visual">
             <geometry>
@@ -1118,12 +1190,14 @@
             </geometry>
             <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="6.68894150e-02 4.69597694e-14 3.91834683e-02" />
         </visual>
-        <collision name="r_wrist_casing_collision_9">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="6.68894150e-02 4.69597694e-14 3.91834683e-02" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_9">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="6.68894150e-02 4.69597694e-14 3.91834683e-02" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_10_visual">
             <geometry>
@@ -1131,12 +1205,14 @@
             </geometry>
             <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="8.62109371e-02 3.90372179e-14 4.05345607e-02" />
         </visual>
-        <collision name="r_wrist_casing_collision_10">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="8.62109371e-02 3.90372179e-14 4.05345607e-02" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_10">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.06981317 -0.00079633" xyz="8.62109371e-02 3.90372179e-14 4.05345607e-02" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_11_visual">
             <geometry>
@@ -1144,12 +1220,14 @@
             </geometry>
             <origin rpy=" 0.         -0.45379682 -1.41179053" xyz="0.03816411 0.01612838 0.0334939 " />
         </visual>
-        <collision name="r_wrist_casing_collision_11">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.45379682 -1.41179053" xyz="0.03816411 0.01612838 0.0334939 " />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_11">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.45379682 -1.41179053" xyz="0.03816411 0.01612838 0.0334939 " />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_12_visual">
             <geometry>
@@ -1157,12 +1235,14 @@
             </geometry>
             <origin rpy=" 0.         -0.43827188 -1.40646881" xyz="0.0574718  0.01616603 0.03496898" />
         </visual>
-        <collision name="r_wrist_casing_collision_12">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.43827188 -1.40646881" xyz="0.0574718  0.01616603 0.03496898" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_12">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.43827188 -1.40646881" xyz="0.0574718  0.01616603 0.03496898" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_13_visual">
             <geometry>
@@ -1170,12 +1250,14 @@
             </geometry>
             <origin rpy=" 0.         -0.41035341 -1.39583169" xyz="0.09603639 0.01623087 0.0378917 " />
         </visual>
-        <collision name="r_wrist_casing_collision_13">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.41035341 -1.39583169" xyz="0.09603639 0.01623087 0.0378917 " />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_13">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.41035341 -1.39583169" xyz="0.09603639 0.01623087 0.0378917 " />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_14_visual">
             <geometry>
@@ -1183,12 +1265,14 @@
             </geometry>
             <origin rpy=" 0.         -0.9173585  -1.48362458" xyz="0.02930032 0.02898298 0.02227676" />
         </visual>
-        <collision name="r_wrist_casing_collision_14">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.9173585  -1.48362458" xyz="0.02930032 0.02898298 0.02227676" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_14">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.9173585  -1.48362458" xyz="0.02930032 0.02898298 0.02227676" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_15_visual">
             <geometry>
@@ -1196,12 +1280,14 @@
             </geometry>
             <origin rpy=" 0.         -0.85461579 -1.47898421" xyz="0.06788165 0.02955428 0.02583275" />
         </visual>
-        <collision name="r_wrist_casing_collision_15">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.85461579 -1.47898421" xyz="0.06788165 0.02955428 0.02583275" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_15">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.85461579 -1.47898421" xyz="0.06788165 0.02955428 0.02583275" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_16_visual">
             <geometry>
@@ -1209,12 +1295,14 @@
             </geometry>
             <origin rpy=" 0.         -0.82535957 -1.47651581" xyz="0.08716775 0.0297714  0.02760693" />
         </visual>
-        <collision name="r_wrist_casing_collision_16">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -0.82535957 -1.47651581" xyz="0.08716775 0.0297714  0.02760693" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_16">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -0.82535957 -1.47651581" xyz="0.08716775 0.0297714  0.02760693" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_17_visual">
             <geometry>
@@ -1222,12 +1310,14 @@
             </geometry>
             <origin rpy=" 0.         -1.34837613 -1.50001332" xyz="0.04026087 0.03639751 0.00825287" />
         </visual>
-        <collision name="r_wrist_casing_collision_17">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -1.34837613 -1.50001332" xyz="0.04026087 0.03639751 0.00825287" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_17">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -1.34837613 -1.50001332" xyz="0.04026087 0.03639751 0.00825287" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_18_visual">
             <geometry>
@@ -1235,12 +1325,14 @@
             </geometry>
             <origin rpy=" 0.         -1.30148261 -1.49916438" xyz="0.05949535 0.0372657  0.0103131 " />
         </visual>
-        <collision name="r_wrist_casing_collision_18">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -1.30148261 -1.49916438" xyz="0.05949535 0.0372657  0.0103131 " />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_18">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -1.30148261 -1.49916438" xyz="0.05949535 0.0372657  0.0103131 " />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_19_visual">
             <geometry>
@@ -1248,12 +1340,14 @@
             </geometry>
             <origin rpy=" 0.         -2.86342782 -1.31474046" xyz=" 0.0203672   0.0095658  -0.03463356" />
         </visual>
-        <collision name="r_wrist_casing_collision_19">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.86342782 -1.31474046" xyz=" 0.0203672   0.0095658  -0.03463356" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_19">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.86342782 -1.31474046" xyz=" 0.0203672   0.0095658  -0.03463356" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_20_visual">
             <geometry>
@@ -1261,12 +1355,14 @@
             </geometry>
             <origin rpy=" 0.         -2.86342782  1.3131478 " xyz=" 0.0203672  -0.0095658  -0.03463356" />
         </visual>
-        <collision name="r_wrist_casing_collision_20">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.86342782  1.3131478 " xyz=" 0.0203672  -0.0095658  -0.03463356" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_20">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.86342782  1.3131478 " xyz=" 0.0203672  -0.0095658  -0.03463356" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_21_visual">
             <geometry>
@@ -1274,12 +1370,14 @@
             </geometry>
             <origin rpy=" 0.         -2.09765927 -1.49080445" xyz=" 0.03846914  0.0321253  -0.01874878" />
         </visual>
-        <collision name="r_wrist_casing_collision_21">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.09765927 -1.49080445" xyz=" 0.03846914  0.0321253  -0.01874878" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_21">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.09765927 -1.49080445" xyz=" 0.03846914  0.0321253  -0.01874878" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_22_visual">
             <geometry>
@@ -1287,12 +1385,14 @@
             </geometry>
             <origin rpy=" 0.         -2.61546991 -1.43223589" xyz=" 0.03741498  0.01850665 -0.03218039" />
         </visual>
-        <collision name="r_wrist_casing_collision_22">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.61546991 -1.43223589" xyz=" 0.03741498  0.01850665 -0.03218039" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_22">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.61546991 -1.43223589" xyz=" 0.03741498  0.01850665 -0.03218039" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_23_visual">
             <geometry>
@@ -1300,12 +1400,14 @@
             </geometry>
             <origin rpy=" 0.         -2.61546991  1.43064324" xyz=" 0.03741498 -0.01850665 -0.03218039" />
         </visual>
-        <collision name="r_wrist_casing_collision_23">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.61546991  1.43064324" xyz=" 0.03741498 -0.01850665 -0.03218039" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_23">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.61546991  1.43064324" xyz=" 0.03741498 -0.01850665 -0.03218039" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_24_visual">
             <geometry>
@@ -1313,12 +1415,14 @@
             </geometry>
             <origin rpy=" 0.         -2.09765927  1.4892118 " xyz=" 0.03846914 -0.0321253  -0.01874878" />
         </visual>
-        <collision name="r_wrist_casing_collision_24">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.09765927  1.4892118 " xyz=" 0.03846914 -0.0321253  -0.01874878" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_24">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.09765927  1.4892118 " xyz=" 0.03846914 -0.0321253  -0.01874878" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_25_visual">
             <geometry>
@@ -1326,12 +1430,14 @@
             </geometry>
             <origin rpy=" 0.         -2.879768   -1.29872623" xyz=" 0.05382586  0.00956273 -0.03705597" />
         </visual>
-        <collision name="r_wrist_casing_collision_25">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.879768   -1.29872623" xyz=" 0.05382586  0.00956273 -0.03705597" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_25">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.879768   -1.29872623" xyz=" 0.05382586  0.00956273 -0.03705597" />
+            </collision>
+        </xacro:unless>
 
         <visual name="r_wrist_casing_collision_26_visual">
             <geometry>
@@ -1339,12 +1445,14 @@
             </geometry>
             <origin rpy=" 0.         -2.879768    1.29713358" xyz=" 0.05382586 -0.00956273 -0.03705597" />
         </visual>
-        <collision name="r_wrist_casing_collision_26">
-            <geometry>
-                <box size="0.015 0.015 0.001" />
-            </geometry>
-            <origin rpy=" 0.         -2.879768    1.29713358" xyz=" 0.05382586 -0.00956273 -0.03705597" />
-        </collision>
+        <xacro:unless value="$(arg fake_arms)">
+            <collision name="r_wrist_casing_collision_26">
+                <geometry>
+                    <box size="0.015 0.015 0.001" />
+                </geometry>
+                <origin rpy=" 0.         -2.879768    1.29713358" xyz=" 0.05382586 -0.00956273 -0.03705597" />
+            </collision>
+        </xacro:unless>
 
     </xacro:macro>
     <xacro:if value="$(arg contact_torso)">
